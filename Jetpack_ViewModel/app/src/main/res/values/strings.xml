@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Jetpack - View Model</string>
+    <string name="total_de_cliques">Total de Cliques:</string>
+    <string name="tente_clicar_o_mais_r_pido_que_puder">Tente clicar o mais rápido que puder!</string>
+</resources>

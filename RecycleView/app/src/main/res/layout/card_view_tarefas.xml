@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="10dp"
+    app:contentPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="331dp"
+        android:layout_height="294dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Nome da Tarefa" />
+
+        <TextView
+            android:id="@+id/Descrição"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Descrição" />
+
+        <TextView
+            android:id="@+id/Responsável"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Responsável" />
+
+        <TextView
+            android:id="@+id/Data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Data" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:minHeight="48dp"
+            android:text="Em andamento" />
+
+        <TextView
+            android:id="@+id/Categoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Categoria" />
+
+        <Button
+            android:id="@+id/Deletar"
+            android:layout_width="329dp"
+            android:layout_height="wrap_content"
+            android:text="Deletar" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
